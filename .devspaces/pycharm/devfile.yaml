@@ -9,14 +9,6 @@
   events:
     preStart:
       - on-init-command
-  attributes:
-    projects:
-      - name: microblog
-        git:
-          remotes:
-            origin: "https://github.com/Jaland/PythonExampleWithChe.git"
-          checkoutFrom:
-            revision: main
   components:
     - name: che-pycharm-runtime-description
       container:
