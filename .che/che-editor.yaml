@@ -20,7 +20,7 @@ inline:
   components:
     - name: che-pycharm-runtime-description
       container:
-        image: 'quay.io/devfile/universal-developer-image:ubi8-9436df2'
+        image: 'quay.io/devfile/universal-developer-image:ubi9-dd1f49f'
         command:
           - /projector/entrypoint-volume.sh
         env:
